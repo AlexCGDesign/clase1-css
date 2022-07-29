@@ -1,0 +1,173 @@
+/* h2{
+
+    font-family: cursive;
+    color: steelblue;
+} */
+
+
+article{
+    /* border: 3px solid #000; */
+}
+
+.borde{
+    /*  
+        Aquí irá un borde que tenga 3px de grosor,
+         que sea solido y del color negro
+    */
+
+    /* border: 3px solid black; */
+}
+
+/* [src]{
+
+    background-color: red;
+    width:500px;
+    height: 300px;
+    object-fit: cover;
+    
+
+}
+
+
+#title{
+    color: purple;
+    font-size: 60px;
+    text-align: center;
+}
+
+main h2{
+    color: crimson;
+} */
+
+/* #title{
+    color: crimson !important;
+}
+
+#title.subtitle{
+    color: darkblue !important;
+}
+
+.subtitle{
+    font-size: 40px;
+} */
+
+
+.lista{
+    background-color: steelblue;
+    width: max-content;
+}
+
+.lista__comida{
+    color: white;
+    /* list-style: none; */
+}
+
+.lista__comida--favorita{
+    color: #fff;
+}
+
+.lista__comida::marker{
+    content: '😋';
+}
+
+.lista__comida--favorita::marker{
+    content: '❤';
+}
+
+
+.clase::marker{
+
+}
+
+
+/* ----------------------------------------------- */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero{
+    /* background-color: tomato; */
+    background-image: 
+    linear-gradient(#1e1f1f54, #740d7456), url("../img/city.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+.nav{
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav__list{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+
+    /* vw, vh */
+
+    list-style: none;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+.hero__main{
+    
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    color: white;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__title{
+    /* em, rem */
+    font-size: 3rem;
+    /* 16px * 3 */
+}
+
+.figure{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    width: 50%;
+    background-color: teal;
+
+    position: relative;
+}
+
+.figure__img{
+    vertical-align: middle;
+    width: 100%;
+}
+
+.figure__description{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    background-color:black;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
